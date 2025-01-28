@@ -34,5 +34,7 @@ public class Main {
         double netIncome = income - ((double) staffExpenses + otherExpenses);
 
         System.out.println("Net income: $" + netIncome);
+
+        scanner.close();
     }
 }
